@@ -23,4 +23,5 @@
  '(font-lock-keyword-face ((((class color) (min-colors 88) (background light)) (:foreground "#99ffff"))))
  '(font-lock-string-face ((((class color) (min-colors 88) (background light)) (:foreground "green"))))
  '(mode-line ((((class color) (min-colors 88)) (:background "grey30" :foreground "green"))))
- '(mode-line-inactive ((default (:inherit mode-line)) (((class color) (min-colors 88) (background light)) (:background "grey30" :foreground "grey90" :weight light)))))
+ '(mode-line-inactive ((default (:inherit mode-line)) (((class color) (min-colors 88) (background light)) (:background "grey30" :foreground "grey90" :weight light))))
+ '(region ((((class color) (min-colors 88) (background light)) (:background "#0000cc")))))
