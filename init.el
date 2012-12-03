@@ -3,6 +3,7 @@
 (display-time-mode)
 (column-number-mode)
 (set-default 'truncate-lines t)
+(setq-default fill-column 98)
 
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
