@@ -3,6 +3,7 @@
 (display-time-mode)
 (column-number-mode)
 (set-default 'truncate-lines t)
+(setq truncate-partial-width-windows nil)
 (setq-default fill-column 98)
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 (add-to-list 'auto-mode-alist '("\\.cu$" . c++-mode))
