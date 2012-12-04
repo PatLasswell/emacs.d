@@ -4,6 +4,9 @@
 (column-number-mode)
 (set-default 'truncate-lines t)
 (setq-default fill-column 98)
+(add-to-list 'load-path "~/.emacs.d/lisp/")
+(add-to-list 'auto-mode-alist '("\\.cu$" . c++-mode))
+(add-to-list 'auto-mode-alist '("\\.cuh$" . c++-mode))
 
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
